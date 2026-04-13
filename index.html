@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Sitio web sobre cultura, innovación y gastronomía de Alemania">
+
+<title>Alemania: Tradición e Innovación</title>
+
+<link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">Germany Culture</div>
+
+<button class="menu-btn" onclick="toggleMenu()">☰</button>
+
+<nav id="sidebar">
+<ul>
+<li><a href="cultura.html">Cultura</a></li>
+<li><a href="innovacion.html">Innovación</a></li>
+<li><a href="gastronomia.html">Gastronomía</a></li>
+<li><a href="#">Contacto</a></li>
+</ul>
+</nav>
+
+</header>
+
+<main>
+
+<section class="hero">
+<h1>Alemania: Tradición e Innovación</h1>
+<img src="imagenes/FRA2.jpg" alt="Paisaje representativo de Alemania">
+</section>
+
+<section class="intro">
+<h2>Descubre Alemania</h2>
+<p>
+Este sitio presenta algunos de los aspectos culturales más importantes de Alemania,
+destacando su historia, innovación tecnológica y gastronomía tradicional.
+</p>
+</section>
+
+<section class="features">
+
+<div class="feature">
+<img class="section-img" src="imagenes/Cultura 0.avif" alt="Festival cultural en Alemania">
+<h3>Cultura</h3>
+<p>Explora la historia y tradiciones.</p>
+</div>
+
+<div class="feature">
+<img class="section-img" src="imagenes/innovacion 3.jpg" alt="Tecnología alemana moderna">
+<h3>Innovación</h3>
+<p>Liderazgo en ingeniería.</p>
+</div>
+
+<div class="feature">
+<img class="section-img" src="imagenes/Comida 0.jpg" alt="Platos típicos alemanes">
+<h3>Gastronomía</h3>
+<p>Comida y cultura cervecera.</p>
+</div>
+
+</section>
+
+</main>
+
+<footer>
+<p>Información – Créditos | Proyecto académico</p>
+</footer>
+
+<script>
+function toggleMenu(){
+document.getElementById("sidebar").classList.toggle("active");
+}
+</script>
+
+</body>
+</html>
