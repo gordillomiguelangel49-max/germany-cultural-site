@@ -18,6 +18,12 @@
 
 <button class="menu-btn" onclick="toggleMenu()">☰</button>
 
+<div class="slider">
+    <button class="prev" onclick="cambiarImagen(-1)">&#10094;</button>
+    <img src="imagenes/FRA2.jpg" alt="Paisaje Alemania">
+    <button class="next" onclick="cambiarImagen(1)">&#10095;</button>
+</div>
+
 <nav id="sidebar">
 <ul>
 <li><a href="cultura.html">Cultura</a></li>
@@ -33,7 +39,10 @@
 
 <section class="hero">
 <h1>Alemania: Tradición e Innovación</h1>
-<img src="imagenes/FRA2.jpg" alt="Paisaje representativo de Alemania">
+<p id="mensaje"></p>
+<div class="slider">
+<img src="imagenes/FRA2.jpg" alt="Paisaje región representativa de Alemania">
+</div>
 </section>
 
 <section class="intro">
@@ -72,11 +81,7 @@ destacando su historia, innovación tecnológica y gastronomía tradicional.
 <p>Información – Créditos | Proyecto académico</p>
 </footer>
 
-<script>
-function toggleMenu(){
-document.getElementById("sidebar").classList.toggle("active");
-}
-</script>
+<script src="js/script.js"></script>
 
 </body>
 </html>
